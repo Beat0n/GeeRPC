@@ -21,3 +21,5 @@ func NewServer() *Server {
 }
 
 var DefaultServer = NewServer()
+
+func ()
