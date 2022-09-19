@@ -23,7 +23,9 @@ var DefaultOption = &Option{
 	CodecType:   codec.GobType,
 }
 
-type Server struct{}
+type Server struct {
+	//TODO add history map[uint64]*Call
+}
 
 func NewServer() *Server {
 	return &Server{}
